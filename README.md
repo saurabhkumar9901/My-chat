@@ -66,7 +66,7 @@ source venv/bin/activate
 pip install --no-deps -r requirements.txt
 ```
 4. Set Environment Variables
-Create a .env file in the root directory (Get the api keys from here ```https://aistudio.google.com/api-keys ```):
+Create a .env file in the root directory (Get the gemini api keys from here ```https://aistudio.google.com/api-keys ```):
 
 ```
 DEBUG=FALSE
