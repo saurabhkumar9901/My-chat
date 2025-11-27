@@ -49,7 +49,7 @@ A Google Gemini API Key (Get one here)
 
 ```
 git clone https://github.com/saurabhkumar9901/My-chat
-cd gemini-django-chatbot
+cd My-chat
 ```
 2. Create Virtual Environment
 
