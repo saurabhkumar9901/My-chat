@@ -3,6 +3,9 @@
 A powerful, full-stack Generative AI Chatbot capable of processing multiple PDF documents and
 answering questions based on their content (RAG). Built with Django for a secure backend and React
 for a responsive, streaming frontend.
+```
+Demo Video link: https://youtu.be/c4BgwxHOU70
+```
 
 ## ✨ Features
 
@@ -45,7 +48,7 @@ A Google Gemini API Key (Get one here)
 1. Clone the Repository
 
 ```
-git clone [https://github.com/yourusername/gemini-django-chatbot.git](https://github.co
+git clone https://github.com/saurabhkumar9901/My-chat
 cd gemini-django-chatbot
 ```
 2. Create Virtual Environment
@@ -67,8 +70,8 @@ Create a .env file in the root directory:
 
 ```
 DEBUG=True
-SECRET_KEY=your-secure-secret-key
-GEMINI_API_KEY=AIzaSyYourKeyHere
+SECRET_KEY=django-insecure-_^m%a!50&cs_=+w533q6s1d(rchcmqmnv7o5ax3idmsin%rnbt
+GEMINI_API_KEY=your-gemini-key
 ```
 5. Run the Server
 
@@ -88,9 +91,9 @@ runtime.
 ```
 # Build passing arguments (for local testing)
 docker build \
---build-arg API_KEY="AIza..." \
---build-arg SECRET_KEY="unsafe-key" \
---build-arg DEBUG="False" \
+--build-arg API_KEY=your-gemini-key \
+--build-arg SECRET_KEY=django-insecure-_^m%a!50&cs_=+w533q6s1d(rchcmqmnv7o5ax3idmsin%rnbt \
+--build-arg DEBUG=False \
 -t mychatbot.
 ```
 Run the Container
@@ -115,23 +118,23 @@ docker run -p 8000:7860 mychatbot
 ```
 gemini-django-chatbot/
 │
-├── Dockerfile # Deployment configuration
-├── requirements.txt # Python dependencies
-├── manage.py # Django entry point
-├── .env # Environment variables (Ignored by Git)
+├── Dockerfile 
+├── requirements.txt 
+├── manage.py 
+├── .env 
 │
-├── mychatbot/ # Main Django Configuration
-│ ├── settings.py # App settings & security
-│ ├── urls.py # API Routing
-│ ├── views.py # Core Logic (RAG & Gemini interaction)
-│ └── wsgi.py # Gateway interface for Gunicorn
+├── mychatbot/ 
+│ ├── settings.py 
+│ ├── urls.py 
+│ ├── views.py 
+│ └── wsgi.py 
 │
-└── templates/ # Frontend
+└── templates/ 
 └
 ```
 
 ```
-└── index.html # Single-file React Application
+└── index.html 
 ```
 ## 🤝 Contributing
 
