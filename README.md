@@ -130,11 +130,7 @@ gemini-django-chatbot/
 │ └── wsgi.py 
 │
 └── templates/ 
-└
-```
-
-```
-└── index.html 
+  └── index.html 
 ```
 ## 🤝 Contributing
 
