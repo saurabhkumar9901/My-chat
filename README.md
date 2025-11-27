@@ -69,7 +69,7 @@ pip install -r requirements.txt
 Create a .env file in the root directory:
 
 ```
-DEBUG=True
+DEBUG=FALSE
 SECRET_KEY=django-insecure-_^m%a!50&cs_=+w533q6s1d(rchcmqmnv7o5ax3idmsin%rnbt
 GEMINI_API_KEY=your-gemini-key
 ```
