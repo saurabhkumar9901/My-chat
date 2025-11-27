@@ -63,7 +63,7 @@ source venv/bin/activate
 3. Install Dependencies
 
 ```
-pip install -r requirements.txt
+pip install --no-deps -r requirements.txt
 ```
 4. Set Environment Variables
 Create a .env file in the root directory:
